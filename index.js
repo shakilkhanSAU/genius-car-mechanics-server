@@ -64,6 +64,10 @@ app.get('/', (req, res) => {
     res.send('runnig genius server')
 })
 
+app.get('/hello', (req, res) => {
+    res.send('hello shakil , im from heroku server online')
+})
+
 app.listen(port, () => {
     console.log('running genius', port)
 })
